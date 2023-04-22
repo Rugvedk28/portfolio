@@ -1,2 +1,2 @@
 # Portfolio Website
-visit the website: www.rugvedk28.github.io/portfolio
+visit the website: https://rugvedk28.github.io/portfolio
