@@ -156,3 +156,13 @@ sr.reveal(`.skills__content:nth-child(1)`, {origin: 'left'})
 sr.reveal(`.skills__content:nth-child(2)`, {origin: 'right'})
 sr.reveal(`.skills__content:nth-child(3)`, {origin: 'left'})
 sr.reveal(`.services__card`, {origin: 'left'})
+
+
+/*----------------------Change Background Header----------------------*/
+const scrollHeader = () =>{
+    const header = document.getElementById('header')
+    // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+    this.scrollY >= 50 ? header.classList.add('bg-header') 
+                       : header.classList.remove('bg-header')
+}
+window.addEventListener('scroll', scrollHeader)
